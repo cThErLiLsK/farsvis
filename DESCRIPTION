@@ -10,7 +10,7 @@ Authors@R:
 Description: This package reads and dispays data from the US National Highway 
     Traffic Safety Administration's Fatality Analysis Reporting System (FARS), which is a
     nationwide census providing the American public yearly data regarding fatal
-    injuries suffered in motor vehicle traffic crashes the package does (one paragraph).
+    injuries suffered in motor vehicle traffic crashes.
 License: CC0
 Encoding: UTF-8
 LazyData: true
@@ -23,3 +23,8 @@ Imports:
     maps,
     tidyr,
     magrittr
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

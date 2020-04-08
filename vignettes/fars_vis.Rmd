@@ -1,0 +1,31 @@
+---
+title: "FARS Visualization"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{fars_vis}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup, echo = FALSE}
+library(farsvis)
+```
+
+This package reads and dispays data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System (FARS), which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
+
+Data is available for the years 2013 to 2015.
+
+The package contaings the following functions:
+
+- `fars_read` Read data for a year
+- `fars_summarize_years` Calculate number of accidents per month and yar
+- `fars_map_state` Display location of accidents for a US state and year on a schematic state map
+
+Detailed descriptions of the functions can be found in the documentation.
