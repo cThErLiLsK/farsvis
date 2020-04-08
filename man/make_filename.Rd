@@ -22,6 +22,8 @@ the particular year stored in a file with this filename.
 The year needs to be between 2013 and 2015.
 }
 \examples{
-make_filename(2014)
-make_filename("2013")
+\dontrun{
+  make_filename(2014)
+  make_filename("2013")
+}
 }

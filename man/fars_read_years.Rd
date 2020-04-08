@@ -18,7 +18,9 @@ This function returns a list of tibbles. Each tibble containts FARS data
 This function allows to read FARS data from files for one or more years.
 }
 \examples{
-fars_read_years(2015)
-fars_read_years(c(2013, 2014))
-fars_read_years(c("2014", "2013"))
+\dontrun{
+  fars_read_years(2015)
+  fars_read_years(c(2013, 2014))
+  fars_read_years(c("2014", "2013"))
+}
 }

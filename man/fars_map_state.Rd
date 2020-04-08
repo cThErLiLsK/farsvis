@@ -9,7 +9,7 @@ fars_map_state(state.num, year)
 \arguments{
 \item{state.num}{Number of the US state.}
 
-\item{years}{A single numeric or character string specifying a year.}
+\item{year}{A single numeric or character string specifying a year.}
 }
 \value{
 This function returns a map with the location of accidents based on
@@ -21,7 +21,7 @@ This function displays a map by US state. The map depicts the location of
     accidents based on FARS data, with a dot for each accident.
 }
 \examples{
-fars_map_state(1, 2015)
+fars_map_state(1, 2013)
 fars_map_state(5, "2014")
 
 }

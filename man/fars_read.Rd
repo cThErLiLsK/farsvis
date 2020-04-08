@@ -15,11 +15,18 @@ This function returns the data read in from the file as a tibble,
 }
 \description{
 This function allows to read data from any csv file.
-Specifically, however, the function is uese to read data from the US National Highway
+Specifically, however, the function is used to read data from the US National Highway
 Traffic Safety Administration's Fatality Analysis Reporting System (FARS), which is a
 nationwide census providing the American public yearly data regarding fatal
 injuries suffered in motor vehicle traffic crashes.
 }
 \note{
 The file needs to be in the current working directory.
+}
+\examples{
+fars_read("accident_2013.csv.bz2")
+\dontrun{
+  fars_read("anyFile.csv")
+}
+
 }
